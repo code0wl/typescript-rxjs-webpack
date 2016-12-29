@@ -1,7 +1,9 @@
 module.exports = {
     entry: './main',
     output: { filename: 'bundle.js' },
-    resolve: ['js', 'ts', ''],
+    resolve: {
+        extensions: ['.js', '.ts', '']
+    },
     module: {
         loaders: [{
             test: /.ts$/,
