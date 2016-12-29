@@ -42,8 +42,10 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+	var observable_1 = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./src/observable\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	var iWork = (function () {
 	    function iWork() {
 	        console.log('I work');
@@ -51,6 +53,7 @@
 	    return iWork;
 	}());
 	new iWork();
+	new observable_1.testObservable();
 
 
 /***/ }
