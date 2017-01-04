@@ -1,4 +1,4 @@
-wnode_modules/
+node_modules/
 .vscode/
 .idea/
 bundle.js
