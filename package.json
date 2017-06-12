@@ -1,6 +1,6 @@
 {
 	"name": "generator-webpackrxjs",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A simple starterkit for a local playground or project",
 	"main": "index.js",
 	"files": [
@@ -32,7 +32,7 @@
 		"ts-loader": "^2.1.0",
 		"tslint": "^5.4.3",
 		"typescript": "^2.3.4",
-		"typings": "^2.1.0",
+		"typings": "^2.1.1",
 		"webpack": "^2.6.1",
 		"webpack-dev-server": "^2.4.5"
 	}
