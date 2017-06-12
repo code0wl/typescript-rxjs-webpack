@@ -1,32 +1,39 @@
 {
-    "name": "starter-kit",
-    "version": "1.0.0",
-    "description": "A simple starterkit for a local playground or project",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npm i && webpack-dev-server --watch --inline",
-        "postinstall": "typings install"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/code0wl/typescript-rxjs-webpack.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/code0wl/typescript-rxjs-webpack/issues"
-    },
-    "homepage": "https://github.com/code0wl/typescript-rxjs-webpack#readme",
-    "dependencies": {
-        "rxjs": "^5.4.0"
-    },
-    "devDependencies": {
-        "ts-loader": "^2.1.0",
-        "tslint": "^5.4.3",
-        "typescript": "^2.3.4",
-        "typings": "^2.1.0",
-        "webpack": "^2.6.1",
-        "webpack-dev-server": "^2.4.5"
-    }
+	"name": "generator-webpackrxjs",
+	"version": "1.0.0",
+	"description": "A simple starterkit for a local playground or project",
+	"main": "index.js",
+	"files": [
+		"src"
+	],
+	"keywords": [
+		"yeoman-generator"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npm i && webpack-dev-server --watch --inline",
+		"postinstall": "typings install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/code0wl/typescript-rxjs-webpack.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/code0wl/typescript-rxjs-webpack/issues"
+	},
+	"homepage": "https://github.com/code0wl/typescript-rxjs-webpack#readme",
+	"dependencies": {
+		"rxjs": "^5.4.0",
+		"yeoman-generator": "^1.1.1"
+	},
+	"devDependencies": {
+		"ts-loader": "^2.1.0",
+		"tslint": "^5.4.3",
+		"typescript": "^2.3.4",
+		"typings": "^2.1.0",
+		"webpack": "^2.6.1",
+		"webpack-dev-server": "^2.4.5"
+	}
 }
