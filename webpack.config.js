@@ -1,13 +1,18 @@
+const path = require("path");
+
 module.exports = {
-    entry: './main',
-    output: { filename: 'bundle.js' },
-    resolve: {
-        extensions: ['.js', '.ts', '']
-    },
-    module: {
-        loaders: [{
-            test: /.ts$/,
-            loader: 'ts-loader'
-        }]
-    }
-}
+	entry: './main',
+	resolve: {
+		extensions: ['.js', '.ts']
+	},
+	output: {
+		path: path.resolve(__dirname, "./dist"),
+		filename: "[name].js"
+	},
+	module: {
+		loaders: [{
+			test: /.ts$/,
+			loader: 'ts-loader'
+		}]
+	}
+};
