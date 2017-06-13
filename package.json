@@ -1,39 +1,49 @@
 {
-	"name": "generator-webpackrxjs",
-	"version": "1.0.1",
-	"description": "A simple starterkit for a local playground or project",
-	"main": "index.js",
-	"files": [
-		"src"
-	],
-	"keywords": [
-		"yeoman-generator"
-	],
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "npm i && webpack-dev-server --watch --inline",
-		"postinstall": "typings install"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/code0wl/typescript-rxjs-webpack.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/code0wl/typescript-rxjs-webpack/issues"
-	},
-	"homepage": "https://github.com/code0wl/typescript-rxjs-webpack#readme",
-	"dependencies": {
-		"rxjs": "^5.4.0",
-		"yeoman-generator": "^1.1.1"
-	},
-	"devDependencies": {
-		"ts-loader": "^2.1.0",
-		"tslint": "^5.4.3",
-		"typescript": "^2.3.4",
-		"typings": "^2.1.1",
-		"webpack": "^2.6.1",
-		"webpack-dev-server": "^2.4.5"
-	}
+    "name": "slush-typescript-rxjs-webpack",
+    "description": "Small generator for rxjs webpack projects",
+    "version": "0.1.0",
+    "homepage": "https://github.com/code0wl/slush-typescript-rxjs-webpack",
+    "author": {
+        "name": "Oz",
+        "email": "o.lodriguez@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/code0wl/slush-typescript-rxjs-webpack.git"
+    },
+    "bugs": {
+        "url": "https://github.com/code0wl/slush-typescript-rxjs-webpack/issues"
+    },
+    "license": "MIT",
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "postinstall": "typings install",
+        "start": "npm i && webpack-dev-server -w"
+    },
+    "dependencies": {
+        "slush": ">=1.0.0",
+        "gulp": "^3.6.2",
+        "gulp-template": "^0.1.1",
+        "gulp-install": "^0.1.4",
+        "gulp-conflict": "^0.1.1",
+        "gulp-rename": "^1.2.0",
+        "underscore.string": "^2.3.3",
+        "inquirer": "^0.8.0",
+        "iniparser": "^1.0.5"
+    },
+    "keywords": [
+        "slushgenerator"
+    ],
+    "devDependencies": {
+        "@types/rx": "^4.1.1",
+        "ts-loader": "^2.1.0",
+        "typescript": "^2.3.4",
+        "typings": "^2.1.1",
+        "webpack": "^2.6.1",
+        "webpack-dev-server": "^2.4.5"
+    }
 }
