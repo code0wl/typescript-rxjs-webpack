@@ -22,7 +22,7 @@
     },
     "scripts": {
         "postinstall": "typings install",
-        "start": "npm i && webpack-dev-server -w"
+        "start": "npm i && webpack && webpack-dev-server -w"
     },
     "dependencies": {
         "slush": ">=1.0.0",
