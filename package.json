@@ -20,7 +20,7 @@
     "npm": ">=1.4.3"
   },
   "files": [
-    "app"
+    "generators"
   ],
   "keywords": [
     "yeoman-generator"
