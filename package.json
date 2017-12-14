@@ -26,26 +26,17 @@
     "yeoman-generator"
   ],
   "scripts": {
-    "postinstall": "typings install",
     "start": " npm i && webpack && webpack-dev-server -w"
-  },
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-conflict": "^0.1.2",
-    "gulp-install": "^0.1.8",
-    "gulp-rename": "^1.2.2",
-    "gulp-template": "^0.1.2",
-    "iniparser": "^1.0.5",
-    "inquirer": "^0.8.5",
-    "underscore.string": "^2.4.0"
   },
   "devDependencies": {
     "@types/rx": "^4.1.1",
-    "ts-loader": "^2.1.0",
-    "typescript": "^2.3.4",
-    "typings": "^2.1.1",
-    "webpack": "3.10.0",
-    "webpack-dev-server": "^2.4.5",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
     "yeoman-generator": "*"
+  },
+  "dependencies": {
+    "rxjs": "^5.5.5"
   }
 }
