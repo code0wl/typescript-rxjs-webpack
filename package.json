@@ -1,5 +1,5 @@
 {
-  "name": "ypescript-rxjs-webpack",
+  "name": "generator-typescript-rxjs-webpack",
   "description": "Small generator for rxjs webpack projects",
   "version": "0.1.0",
   "homepage": "https://github.com/code0wl/typescript-rxjs-webpack",
@@ -19,9 +19,15 @@
     "node": ">= 0.10.26",
     "npm": ">=1.4.3"
   },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
   "scripts": {
     "postinstall": "typings install",
-    "start": "npm i && webpack && webpack-dev-server -w"
+    "start": " npm i && webpack && webpack-dev-server -w"
   },
   "dependencies": {
     "gulp": "^3.9.1",
@@ -39,6 +45,7 @@
     "typescript": "^2.3.4",
     "typings": "^2.1.1",
     "webpack": "3.10.0",
-    "webpack-dev-server": "^2.4.5"
+    "webpack-dev-server": "^2.4.5",
+    "yeoman-generator": "*"
   }
 }
