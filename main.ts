@@ -2,7 +2,7 @@ import {testObservable} from './src/observable';
 
 class iWork {
     constructor() {
-        console.log('I work')
+        console.log('I work', "stuff")
     }
 }
 

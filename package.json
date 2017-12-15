@@ -20,11 +20,13 @@
     "npm": ">=1.4.3"
   },
   "scripts": {
-    "start": " npm i && webpack",
-    "dev:start": "webpack-dev-server --open"
+    "start": " npm i && webpack -w",
+    "dev:watch": "concurrently \"npm start\" \"npm run dev:start\"",
+    "dev:start": "webpack-dev-server"
   },
   "devDependencies": {
     "@types/rx": "^4.1.1",
+    "concurrently": "^3.5.1",
     "ts-loader": "^3.2.0",
     "typescript": "^2.6.2",
     "webpack": "^3.10.0",

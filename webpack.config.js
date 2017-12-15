@@ -7,10 +7,13 @@ module.exports = {
     },
     devtool: "inline-source-map",
     devServer: {
-        contentBase: "./dist"
+        contentBase: path.join(__dirname, "dist"),
+        port: 3000,
+        open: true,
+        compress: true
     },
     output: {
-        path: path.resolve(__dirname, "./dist"),
+        path: path.resolve("./dist"),
         filename: "[name].js"
     },
     module: {
