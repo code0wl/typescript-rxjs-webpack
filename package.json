@@ -34,7 +34,7 @@
     "typescript": "^2.6.2",
     "webpack": "^3.10.0",
     "webpack-dev-server": "^2.9.7",
-    "yeoman-generator": "*"
+    "yeoman-generator": "^2.0.1"
   },
   "dependencies": {
     "rxjs": "^5.5.5"
