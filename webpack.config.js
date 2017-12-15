@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-    entry: "./app/main",
+    entry: "./main",
     resolve: {
         extensions: [".js", ".ts"]
     },
