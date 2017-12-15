@@ -4,7 +4,7 @@ Use this playground to quickly scaffold a rxjs program
 
 # Usage 
 ```bash
-$ npm start
+$ npm start:dev
 ```
 
-After the start of the project, head to localhost:8080/app and enjoy! 
+Project will start on the specified port with watch mode, enjoy! 
