@@ -1,8 +1,8 @@
-import {testObservable} from './src/observable';
+import {testObservable} from "./src/observable";
 
 class iWork {
     constructor() {
-        console.log('I work', "stuff")
+        console.log("I work, whoohoo");
     }
 }
 
