@@ -1,4 +1,9 @@
 node_modules/
 temp
 *.log
-.idea/
+
+dist
+
+# IDE's
+.idea
+.vscode
