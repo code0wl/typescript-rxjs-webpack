@@ -1,10 +1,14 @@
-import {testObservable} from "./src/observable";
+import { interval } from 'rxjs';
+import { scan } from 'rxjs/operators/';
 
-class iWork {
-    constructor() {
-        console.log("I work, whoohoo");
-    }
-}
+// ****
+//
+// Welcome to your rxjs scratch pad 🤗
+// 
+// ****
 
-new iWork();
-new testObservable();
+var source = interval(2000);
+
+source
+    .pipe(scan((rotation, count) => count + 1, 0))
+    .subscribe(x => console.log(`rxjs logo spun ${x} times`));
