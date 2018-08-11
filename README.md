@@ -1,6 +1,6 @@
 # Solid base for practising RxJS
 
-Use this playground to quickly scaffold a rxjs program and includes marble testing
+Use this playground to quickly scaffold a rxjs program that includes marble testing for scratchpad purposes
 
 # Usage 
 ```bash
