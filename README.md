@@ -2,14 +2,16 @@
 
 Use this playground to quickly scaffold a rxjs program that includes marble testing for scratchpad purposes
 
-# Usage 
+## Usage
+
 ```bash
-$ npm start
+npm start
 ```
 
-# TDD 
+## TDD
+
 ```bash
-$ npm test
+npm test
 ```
 
 Project will start on the specified port with watch mode, enjoy! 

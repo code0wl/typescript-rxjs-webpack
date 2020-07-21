@@ -13,7 +13,7 @@ module.exports = {
         open: true,
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
-        port: 1234
+        port: 3000
     },
     output: {
         path: path.resolve("./dist"),
@@ -26,9 +26,7 @@ module.exports = {
         }],
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: './index.html'
-        }),
+        new HtmlWebpackPlugin({template: './index.html'}),
         new CopyWebpackPlugin([{
             from: './assets',
             to: ''
