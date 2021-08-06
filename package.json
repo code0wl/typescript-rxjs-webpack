@@ -1,7 +1,7 @@
 {
   "name": "typescript-rxjs-webpack",
   "description": "Small generator for rxjs webpack projects",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "homepage": "https://github.com/code0wl/typescript-rxjs-webpack",
   "author": {
     "name": "Oz",
